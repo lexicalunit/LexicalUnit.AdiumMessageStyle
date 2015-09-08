@@ -1,4 +1,4 @@
-# Simple Solarized Atom Message Style
+# Simple Solarized Adium Message Style
 
 ![adium](https://cloud.githubusercontent.com/assets/1903876/9747460/43c7af92-5643-11e5-8a68-5841268ee3b0.png)
 
