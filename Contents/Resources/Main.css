@@ -1,0 +1,22 @@
+/* Main theme. */
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(101, 123, 131); /* solarized black */
+    background-color: #FDF6E3; /* solarized white */
+}
+#Chat { padding: .5em .5em .5em .1em; }
+.clear, .insert { display: block; clear: left; height: 1px; }
+.meta { float: left; clear: left; }
+.meta, .message { line-height: 150%; }
+.buddyicon img { display: inline; max-width: 1em; max-height: 1em; }
+
+/* Sender theme colors. */
+.outgoing .sender { color: #859900; /* solarized green */ }
+.incoming .sender { color: #B58900; /* solarized orange */ }
+
+/* Information that should melt into the background. Make it smaller, lighter, and faded. */
+.sender { font-size: smaller; font-weight: lighter; margin-right: .5em; }
+.context { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
+.time, .time_initial { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
+.status .message { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
