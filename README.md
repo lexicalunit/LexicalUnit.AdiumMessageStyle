@@ -4,7 +4,7 @@
 
 ## Installation
 
-Clone this repository into the directory `~/Library/Application Support/Adium 2.0/Message Styles/`
+Clone this repository into the directory `~/Library/Application Support/Adium 2.0/Message Styles/`. You can also use the `install.sh` script to copy this style into your Adium's Application Support directory for you.
 
 ## Features
 
