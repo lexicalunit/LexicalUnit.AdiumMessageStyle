@@ -1,21 +1,20 @@
-/* Main theme. */
 body {
     margin: 0;
     padding: 0;
     color: rgb(101, 123, 131); /* solarized black */
     background-color: #FDF6E3; /* solarized white */
-    -webkit-font-smoothing: sub
+    -webkit-font-smoothing: subpixel-antialiased;
 }
-body * {
-    -webkit-font-smoothing: subpixel-antialiased !important;
-}
-#Chat { padding: .5em .5em .5em .1em; }
-.clear, .insert { display: block; clear: left; height: 1px; }
-.meta { float: left; clear: left; }
-.meta, .message { line-height: 150%; }
-.buddyicon img { display: inline; max-width: 1em; max-height: 1em; }
 
-/* Sender theme colors. */
+#Chat { padding: .5em .5em .5em .25em; }
+.clear, .insert { display: block; clear: left; height: 1px; }
+.meta { float: left; clear: left; padding: 0; margin-bottom: -.25em; }
+.meta, .message { line-height: 1.5em; top: -.25em; }
+.buddyicon img { display: inline; max-width: 1em; max-height: 1em; }
+.message img { vertical-align: middle; }
+.sender::after { content: ":"; }
+
+/* Variant colors. */
 .outgoing .sender { color: #859900; /* solarized green */ }
 .incoming .sender { color: #B58900; /* solarized orange */ }
 
