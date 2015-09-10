@@ -4,6 +4,10 @@ body {
     padding: 0;
     color: rgb(101, 123, 131); /* solarized black */
     background-color: #FDF6E3; /* solarized white */
+    -webkit-font-smoothing: sub
+}
+body * {
+    -webkit-font-smoothing: subpixel-antialiased !important;
 }
 #Chat { padding: .5em .5em .5em .1em; }
 .clear, .insert { display: block; clear: left; height: 1px; }
