@@ -20,6 +20,7 @@ body {
 
 /* Information that should melt into the background. Make it smaller, lighter, and faded. */
 .sender { font-size: smaller; font-weight: lighter; margin-right: .5em; }
+.outgoing .message { color: #93A1A1; /* solarized gray */ }
 .context { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
 .time, .time_initial { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
 .status .message { font-size: smaller; font-weight: lighter; color: #93A1A1; /* solarized gray */ }
